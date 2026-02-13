@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>প্রোডাক্টিভ রমজান ২০২৫</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-dark: #1a0b2e;
+        --accent-gold: #fbbf24;
+      }
+      body {
+        font-family: 'Hind Siliguri', sans-serif;
+        background-color: #0f071a;
+        color: #f3f4f6;
+        margin: 0;
+        overflow-x: hidden;
+      }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 24px;
+      }
+      .islamic-pattern {
+        background-image: url("https://www.transparenttextures.com/patterns/islamic-art.png");
+        opacity: 0.1;
+      }
+      .gradient-text {
+        background: linear-gradient(to right, #fbbf24, #f59e0b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .floating {
+        animation: floating 3s ease-in-out infinite;
+      }
+      @keyframes floating {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-15px); }
+        100% { transform: translateY(0px); }
+      }
+      .active-tab {
+        background: linear-gradient(135deg, #4a2c8a 0%, #6b46c1 100%);
+        box-shadow: 0 4px 15px rgba(107, 70, 193, 0.4);
+      }
+      /* Custom scrollbar */
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: #0f071a; }
+      ::-webkit-scrollbar-thumb { background: #4a2c8a; border-radius: 10px; }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "react": "https://esm.sh/react@^19.2.4",
+        "lucide-react": "https://esm.sh/lucide-react@^0.564.0",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
